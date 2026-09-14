@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated data / run artifacts (all reproducible via `python main.py`)
+data/cache/*.csv
+output/*.png
+output/*.csv
+results_log.csv
+setups/*.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
