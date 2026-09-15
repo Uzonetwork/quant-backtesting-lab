@@ -153,7 +153,7 @@ runs anywhere Python runs.
 ## Getting started
 
 ```bash
-git clone [REPO URL]
+git clone https://github.com/Uzonetwork/quant-backtesting-lab
 cd trend_system
 python -m venv venv && venv\Scripts\activate   # Windows; `source venv/bin/activate` elsewhere
 pip install -r requirements.txt
